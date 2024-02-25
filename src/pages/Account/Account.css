@@ -1,0 +1,63 @@
+.account {
+  max-width: 100%;
+}
+.account-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.account-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+.account-input {
+  border: 1px solid #ddd !important;
+  width: 300px;
+  height: 50px;
+}
+.account-input input {
+  margin-left: 15px;
+  border: none;
+  width: 90%;
+  height: 100%;
+}
+.account-form button {
+  border: 1px solid #ff5050;
+  background-color: transparent;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  transition: 0.5s;
+}
+.account-form button:hover {
+  background-color: #ff5050;
+  color: #fff;
+}
+
+/* START RWD */
+@media screen and (max-width: 990px) {
+  .account .account-form {
+    max-width: 100%;
+  }
+  .account-title {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .account {
+    max-width: 100%;
+    margin-left: 15px;
+  }
+  .account-title {
+    width: 100%;
+  }
+}
+/* END RWD */

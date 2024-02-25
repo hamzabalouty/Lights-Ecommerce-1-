@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none !important;
+  max-width: 100% !important;
+  scroll-behavior: smooth;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+li {
+  list-style-type: none;
+}
+
+::selection {
+  background-color: #ff5050;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff5050 !important;
+}
